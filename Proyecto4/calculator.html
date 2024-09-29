@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <style>
+      /* Estilos básicos para la calculadora */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .calculadora {
+        width: 300px;
+        margin: 40px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .campo {
+        margin-bottom: 10px;
+      }
+      .boton {
+        padding: 10px 20px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+        width: 100%;
+      }
+      .boton:hover {
+        background-color: #3e8e41;
+      }
+      .botones {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .botones button {
+        flex: 1 1 calc(50% - 10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculadora">
+      <h2>Calculadora</h2>
+      <div class="campo">
+        <label for="num1">Número 1:</label>
+        <input type="text" id="num1" name="num1" />
+      </div>
+      <div class="campo">
+        <label for="num2">Número 2:</label>
+        <input type="text" id="num2" name="num2" />
+      </div>
+      <div class="campo">
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" name="resultado" readonly />
+      </div>
+      <div class="botones">
+        <button id="suma" class="boton" type="button">Sumar</button>
+        <button id="resta" class="boton" type="button">Restar</button>
+        <button id="multiplicacion" class="boton" type="button">
+          Multiplicar
+        </button>
+        <button id="division" class="boton" type="button">Dividir</button>
+        <button id="potencia" class="boton" type="button">Potencia</button>
+        <button id="raizCuadrada" class="boton" type="button">
+          Raíz Cuadrada
+        </button>
+        <button id="valorAbsoluto" class="boton" type="button">
+          Valor Absoluto
+        </button>
+        <button id="numeroAleatorio" class="boton" type="button">
+          Número Aleatorio
+        </button>
+        <button id="round" class="boton" type="button">Redondear</button>
+        <button id="floor" class="boton" type="button">
+          Redondear hacia abajo
+        </button>
+        <button id="ceil" class="boton" type="button">
+          Redondear hacia arriba
+        </button>
+      </div>
+    </div>
+
+    <script src="calculator1.js"></script>
+  </body>
+</html>

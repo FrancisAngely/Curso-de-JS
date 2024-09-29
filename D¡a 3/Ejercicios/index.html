@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingresos de usuarios</title>
+    <link rel="stylesheet" href="misestilos.css" />
+  </head>
+  <body>
+    <p>Ingresa tu nombre</p>
+    <input type="text" name="nombreUsuario" id="userName" />
+    <button onclick="saludar()">Saludar</button>
+
+    <script>
+      function saludar() {
+        let miNombre = document.getElementById("userName").value;
+        alert("Hola " + miNombre);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(74, 252, 252);
+   
+}
+
+header {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.info img {
+  border-radius: 50%;
+}
+
+.birth,
+.personal {
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.details {
+  line-height: 1.5;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.highlight {
+  color: rgb(0, 78, 167);
+  font-weight: bold;
+}
+
+.personal .highlight {
+  font-weight: bold;
+}
+
+a {
+  display: block;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  background-color: #ddd;
+}
+
+img{
+ margin-right: 33%;
+ margin-top: 42px;
+
+}
+.strong{
+
+font-size: xx-large;
+
+
+}
